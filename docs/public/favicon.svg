@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>PX</title>
+  <circle cx="32" cy="32" r="32" fill="#262626"/>
+  <path fill="#fff" fill-rule="evenodd" d="M16 18h9c6 0 8 4 7 9-1 6-5 9-11 9h-4l-2 10H9l7-28Zm5 7-1 5h3c3 0 4-1 4-3 0-2-1-2-3-2h-3Z"/>
+  <path fill="#fff" d="M35 18h8l5 9h3l-5 7 10 12H46l-5-8-7 8h-9l12-14-2-14Z"/>
+  <path fill="#b5ed35" d="M51 18h7l-6 6h-7l6-6Z"/>
+</svg>
