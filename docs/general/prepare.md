@@ -34,8 +34,3 @@ feedback: true
 ## 按具体场景补充准备
 
 通用准备完成后，再根据服务对象与现场环境阅读 [专项服务准备](/specialized/service-preparation)。例如，助残服务需要提前确认对象需求与沟通方式，户外项目需要核对路线与组织者的物品要求。
-
-<div class="article-downloads">
-  <DownloadLink href="/downloads/general-checklist.txt" filename="志愿服务前通用准备清单.txt">下载可编辑清单</DownloadLink>
-  <DownloadLink href="/downloads/volunteer-field-kit.pdf" filename="PX志愿服务随身资料包.pdf">下载可打印资料包</DownloadLink>
-</div>

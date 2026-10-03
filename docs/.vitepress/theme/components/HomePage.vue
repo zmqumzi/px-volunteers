@@ -40,7 +40,7 @@ import { withBase } from 'vitepress'
     </section>
 
     <section class="resource-strip">
-      <div><h2>带上资料，去做服务</h2><p>下载准备清单，查阅专题资源，方便服务前复习与核对。</p></div>
+      <div><h2>从实践资料中学习</h2><p>查阅第 29 届活动与培训文件，下载报账参考模板。</p></div>
       <a class="text-link" :href="withBase('/resources')">查看下载资源</a>
     </section>
   </div>

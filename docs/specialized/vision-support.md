@@ -41,5 +41,3 @@ feedback: true
 [RNIB：Guiding a blind or partially sighted person（英文）](https://www.rnib.org.uk/living-with-sight-loss/supporting-others/guiding-a-blind-or-partially-sighted-person/)
 
 参加具体助残项目之前，结合 [专项服务准备](/specialized/service-preparation) 与负责人核对对象需求和现场安排。
-
-<DownloadLink href="/downloads/volunteer-field-kit.pdf" filename="PX志愿服务随身资料包.pdf">下载资料包中的视障指引参考页</DownloadLink>

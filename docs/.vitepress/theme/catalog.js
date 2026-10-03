@@ -25,39 +25,15 @@ export const training = {
 
 export const resources = [
   {
-    title: 'PX 志愿服务随身资料包', format: 'PDF · 5 页 · A4 可打印', category: '通用培训与专项服务',
-    description: '包含通用准备、专项准备、听障沟通、视障指引与交接记录五页，可按需要单独打印。',
-    link: '/downloads/volunteer-field-kit.pdf', filename: 'PX志愿服务随身资料包.pdf',
-    note: '本站整理 · 2026-09-29 · 专题参考来源见资料页'
+    title: 'PX 培训部历史资料包', format: 'ZIP · 17 份资料 · 约 21 MB', category: '第 29 届活动与培训参考',
+    description: '保留备用资料包的目录，重点收录 2025 年第 29 届活动策划、会议与培训材料，并附报账参考模板。公开版已遮盖识别到的个人联系方式，真实票据换成示意页。',
+    link: '/downloads/px-reference-materials-public.zip', filename: 'PX培训部历史资料公开版.zip',
+    note: '历史资料 · 公开脱敏版 · 具体活动安排与财务流程请以当前负责人确认为准'
   },
   {
-    title: '志愿服务前通用准备清单', format: 'TXT · 可编辑、可打印', category: '通用培训',
-    description: '核对时间地点、任务、物品与交接安排。',
-    link: '/downloads/general-checklist.txt', filename: '志愿服务前通用准备清单.txt',
-    note: '本站整理 · 2026-09-29'
-  },
-  {
-    title: '专项志愿服务准备清单', format: 'TXT · 可编辑、可打印', category: '专项服务准备',
-    description: '围绕服务对象、沟通方式、场地与项目需要，逐项记录待确认事项。',
-    link: '/downloads/specialized-checklist.txt', filename: '专项志愿服务准备清单.txt',
-    note: '本站整理 · 2026-09-29'
-  },
-  {
-    title: '急救科普学习资源', format: '外部资料', category: '急救科普',
-    description: '了解公众急救培训的主题，并从机构最新公告查阅课程安排。',
-    link: 'https://wjw.sz.gov.cn/szsjjzx/',
-    note: '来源：深圳市急救中心'
-  },
-  {
-    title: '国家通用手语资料', format: '外部资料', category: '手语与听障沟通',
-    description: '从教育部资料目录查阅国家通用手语相关规范资料。',
-    link: 'https://www.moe.gov.cn/jyb_sjzl/ziliao/A19/',
-    note: '来源：教育部'
-  },
-  {
-    title: '盲人指引参考资料', format: '外部资料 · 英文', category: '视障人士服务',
-    description: '阅读视障服务机构的引导资料与示范。',
-    link: 'https://www.rnib.org.uk/living-with-sight-loss/supporting-others/guiding-a-blind-or-partially-sighted-person/',
-    note: '来源：RNIB'
+    title: '活动报账参考模板', format: 'ZIP · 可填写模板与示意页', category: '活动后报账',
+    description: '单独提供经费报账表、公务卡结算表、活动证明、劳务费和奖品签领等模板。真实发票与收款明细已换成仅供识别栏目的示意页。',
+    link: '/downloads/activity-reimbursement-public.zip', filename: '活动报账参考模板公开版.zip',
+    note: '历史资料 · 公开脱敏版 · 填写与提交要求请向本次活动财务负责人确认'
   }
 ]

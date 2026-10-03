@@ -42,7 +42,6 @@ feedback: true
 
 把常用询问、准确地点、时间和联系人岗位写在纸上或手机中。根据活动实际情况填写，交流时也可以请对方通过文字补充需求。
 
-<DownloadLink href="/downloads/volunteer-field-kit.pdf" filename="PX志愿服务随身资料包.pdf">下载资料包中的听障沟通参考页</DownloadLink>
 
 ## 参考资料
 

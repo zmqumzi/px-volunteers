@@ -6,9 +6,9 @@ import { resources } from '../catalog.js'
 <template>
   <div class="learning-page">
     <header class="page-intro">
-      <p class="eyebrow">准备清单 · 专题资料 · 学习入口</p>
+      <p class="eyebrow">部门资料 · 报账模板</p>
       <h1>资源下载</h1>
-      <p class="page-lead">每份资料附上用途、格式与来源。下载的清单可以按实际项目修改，外部资料可前往来源网站查阅。</p>
+      <p class="page-lead">下载公开脱敏的历史资料，重点了解第 29 届活动与培训实践。涉及本次活动的流程和表格，请向负责人核对后使用。</p>
     </header>
     <div class="resource-list">
       <section v-for="resource in resources" :key="resource.link" class="resource-row">

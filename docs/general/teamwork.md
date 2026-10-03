@@ -50,5 +50,3 @@ feedback: true
 1. 实际发生了什么，和原计划有什么差异？
 2. 哪种沟通或配合方式解决了问题？
 3. 下次需要提前准备哪份信息或物品？
-
-<DownloadLink href="/downloads/volunteer-field-kit.pdf" filename="PX志愿服务随身资料包.pdf">下载资料包中的交接记录页</DownloadLink>

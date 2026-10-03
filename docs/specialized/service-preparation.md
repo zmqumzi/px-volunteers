@@ -43,8 +43,3 @@ feedback: true
 | 临时无法继续服务 | 当班负责人 | 接替安排、交接位置和待办事项 |
 
 将要阅读的资料、需要的物品和待确认的问题列出来。不要将“还不清楚”当作“已经准备好”，带着问题向负责人核对后再参加服务。
-
-<div class="article-downloads">
-  <DownloadLink href="/downloads/specialized-checklist.txt" filename="专项志愿服务准备清单.txt">下载可编辑清单</DownloadLink>
-  <DownloadLink href="/downloads/volunteer-field-kit.pdf" filename="PX志愿服务随身资料包.pdf">下载可打印资料包</DownloadLink>
-</div>
