@@ -1,0 +1,13 @@
+{
+  "name": "px-feedback-api",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --port 8787",
+    "test": "node --test test/*.test.js",
+    "deploy": "wrangler deploy",
+    "schema:local": "wrangler d1 execute px-feedback --local --file schema.sql",
+    "schema:remote": "wrangler d1 execute px-feedback --remote --file schema.sql"
+  },
+  "devDependencies": { "wrangler": "4.147.0" }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "px-feedback-api",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-01",
+  "account_id": "e1364eeea87b7fe3019e5201996348a1",
+  "workers_dev": true,
+  "preview_urls": false,
+  "d1_databases": [{
+    "binding": "DB",
+    "database_name": "px-feedback",
+    "database_id": "ec6f7394-c7f3-4ccc-91ff-c5e15fa85564"
+  }],
+  "ratelimits": [{
+    "name": "VOTE_LIMITER",
+    "namespace_id": "946731",
+    "simple": { "limit": 30, "period": 60 }
+  }]
+}
