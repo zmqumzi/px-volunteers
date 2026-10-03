@@ -35,5 +35,11 @@ export const resources = [
     description: '单独提供经费报账表、公务卡结算表、活动证明、劳务费和奖品签领等模板。真实发票与收款明细已换成仅供识别栏目的示意页。',
     link: '/downloads/activity-reimbursement-public.zip', filename: '活动报账参考模板公开版.zip',
     note: '历史资料 · 公开脱敏版 · 填写与提交要求请向本次活动财务负责人确认'
+  },
+  {
+    title: '活动报账填写与材料整理指南', format: '文章 · 在线阅读', category: '活动后报账',
+    description: '按收集凭证、填写经费报账表、补齐附件和提交前核对的顺序，了解历史模板的使用方法。',
+    link: '/resources/reimbursement', action: '阅读指南',
+    note: '依据第 29 届资料整理 · 实际报账请核对现行要求'
   }
 ]
