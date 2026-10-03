@@ -23,23 +23,4 @@ export const training = {
   }
 }
 
-export const resources = [
-  {
-    title: 'PX 培训部历史资料包', format: 'ZIP · 17 份资料 · 约 21 MB', category: '第 29 届活动与培训参考',
-    description: '保留备用资料包的目录，重点收录 2025 年第 29 届活动策划、会议与培训材料，并附报账参考模板。公开版已遮盖识别到的个人联系方式，真实票据换成示意页。',
-    link: '/downloads/px-reference-materials-public.zip', filename: 'PX培训部历史资料公开版.zip',
-    note: '历史资料 · 公开脱敏版 · 具体活动安排与财务流程请以当前负责人确认为准'
-  },
-  {
-    title: '活动报账参考模板', format: 'ZIP · 可填写模板与示意页', category: '活动后报账',
-    description: '单独提供经费报账表、公务卡结算表、活动证明、劳务费和奖品签领等模板。真实发票与收款明细已换成仅供识别栏目的示意页。',
-    link: '/downloads/activity-reimbursement-public.zip', filename: '活动报账参考模板公开版.zip',
-    note: '历史资料 · 公开脱敏版 · 填写与提交要求请向本次活动财务负责人确认'
-  },
-  {
-    title: '活动报账填写与材料整理指南', format: '文章 · 在线阅读', category: '活动后报账',
-    description: '按收集凭证、填写经费报账表、补齐附件和提交前核对的顺序，了解历史模板的使用方法。',
-    link: '/resources/reimbursement', action: '阅读指南',
-    note: '依据第 29 届资料整理 · 实际报账请核对现行要求'
-  }
-]
+export { resourceGroups } from './resources.js'

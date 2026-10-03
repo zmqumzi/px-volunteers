@@ -24,29 +24,30 @@ npm run dev
 - 特化培训文章：`docs/specialized/` 中的 `.md` 文件。
 - 活动报账指南：`docs/resources/reimbursement.md`，入口位于资源下载页。
 - 培训目录标题与简介：`docs/.vitepress/theme/catalog.js` 中的 `training`。
-- 资源名称、说明和下载链接：同一文件中的 `resources`。
-- 下载附件：放在 `docs/public/downloads/`，资源页的名称和说明在 `docs/.vitepress/theme/catalog.js` 的 `resources` 中维护。
+- 资源名称、说明和下载链接：生成的 `docs/.vitepress/theme/resources.js`，修改源列表后重新生成。
+- 资料分类与原文件对应关系：`scripts/prepare_resources.py`；运行后生成 `docs/.vitepress/theme/resources.js`。
+- 下载附件：放在 `docs/public/downloads/` 的分类目录中，由原文件复制生成。
 - 关于我们：`docs/.vitepress/theme/components/AboutPage.vue`。
 - 顶部 Logo 原图：`docs/public/images/px-a3-logo.png`，显示范围由 `BrandLogo.vue` 设置；浏览器图标：`docs/public/favicon.svg`。
 - 配色和排版：`docs/.vitepress/theme/style.css`。
 
 `.md` 是纯文本文件。`# 标题` 表示文章标题，`## 小标题` 表示段落标题，空行分隔段落。可以复制现有文章，替换文字和资料链接。
 
-新增培训文章后，同时在 `docs/.vitepress/config.mjs` 的侧边目录及 `catalog.js` 的专题列表添加链接；资源类文章在 `catalog.js` 的 `resources` 中添加阅读入口。
+新增培训文章后，同时在 `docs/.vitepress/config.mjs` 的侧边目录及 `catalog.js` 的专题列表添加链接；资源类文章的入口在 `ResourceList.vue` 中维护。
 
 ## 目前的内容与反馈
 
-这一版提供八篇基础与专题文章、一篇活动报账指南、三组流程图示，以及两个 ZIP 下载包：一份包含培训部 17 份历史资料的公开版，一份单独收录活动报账模板。资料中重点有 2025 年第 29 届活动和培训材料。原有 PDF 随身资料包和两份 TXT 清单已从网站下载区移除，其文章中的旧下载链接也已清理。
+当前版本提供八篇基础与专题文章、一篇精简的活动报账指南、三组流程图示，以及 25 份独立下载文件。资料按志愿培训、大会筹备、现场执行、部门日常、活动报账五类排列，优先展示 2025 年资料。不再提供整个文件夹的打包下载。
 
-公开版以网站仓库同级的 `备用的资料包/` 为来源，保留原有目录；已识别的个人姓名、电话和证件信息在 Word 文件中遮盖。报账包内的真实发票和含收款账户的明细单改为醒目标注的示意页，旧发票说明中的账户与税号也已删除。原始文件仍保存在上述本地文件夹。历史模板只用于学习，实际使用需向本次活动财务负责人确认现行要求。
+下载文件来自网站仓库同级的 `备用的资料包/`，使用原版，保留原文、姓名和文件排版。活动报账压缩包拆为单独的表格、说明和票据样例；志联标识仅作为站点素材，不列为工作资料。每份下载文件已与原件核对一致。历史模板的本次使用要求向负责人确认。
 
-两份下载文件分别是 `docs/public/downloads/px-reference-materials-public.zip` 和 `docs/public/downloads/activity-reimbursement-public.zip`。更换资料时，应先在本地检查公开范围、重新生成脱敏版并测试下载，再上传到 GitHub；不要直接把含个人或财务信息的原始文件放入 `docs/public/`。
+附件存放在 `docs/public/downloads/` 下的五个分类文件夹中。在项目目录执行 `python scripts/prepare_resources.py` 可从本地原件重新生成附件及目录；执行 `python scripts/prepare_resources.py --check` 可核对文件完整性。新增资料时修改该脚本中的文件列表与分类。
 
 急救内容提供呼救信息与专业学习入口，具体操作结合专业课程学习；手语动作从规范资料和专业示范查阅。文章中附有原始参考来源。
 
-内容评价先完成问题设计，暂不接入外部问卷。文章末尾可预览评价选项、改进方向和建议填写区；内容不提交、不保存。问题草案位于 `内容维护/内容评价问题草案.md`。以后确认收集渠道后，可在 `config.mjs` 的 `themeConfig` 中添加 `feedbackUrl`，显示实际问卷入口。
+文章末尾只保留“有用”的拇指图标和“没帮助”的表情图标，并显示数量。当前版本在当前浏览器保存每篇文章的一次选择；可切换或取消，刷新后保留。数字仅表示当前浏览器的记录，不代表全站评价数量。全站共享计数需在确认数据服务后接入。规则见 `内容维护/内容评价问题草案.md`。
 
-活动报账指南已发布于 `docs/resources/reimbursement.md`。网站文章链接到公开脱敏版模板；修改时请同步核对历史资料与现行报账要求。
+活动报账指南位于 `docs/resources/reimbursement.md`，精简为准备材料、填写表格、按需补齐附件三步，并链接到单独的原版表格。
 
 ## 生成静态网页
 
